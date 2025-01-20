@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "baseName": {
+            "value": "url2del"
+        },
+        "deployingWhat":{
+            "value": "Light UrlShortener"
+        },
+        "existingSWAName": {
+            "value": "admin2del"
+        },
+        "GitHubURL": {
+            "value": "https://github.com/fboucheros/AzUrlShortener"
+        },
+        "GitHubBranch": {
+            "value": "core-extra"
+        },
+        "OwnerName": {
+            "value": "frank"
+        },
+        "defaultRedirectUrl": {
+            "value": "https://azure.com"
+        }
+    }
+}
